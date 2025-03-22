@@ -12,7 +12,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 import { ToastContainer } from 'react-toastify';
-import ConfirmPayment from "./pages/confirmPayment";
+import ConfirmPayment from "./pages/ConfirmPayment";
 import ForgetPassword from "./pages/ForgetPassword";
 import Calender from "./pages/Calender";
 import { AppContext } from "./context/AppContext";
