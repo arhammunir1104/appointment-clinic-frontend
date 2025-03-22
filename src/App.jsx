@@ -25,6 +25,7 @@ function App() {
  
 
   return (
+    <>
       <div className="mx-4 overflow-x-hidden sm:mx-[10%]">
       <ToastContainer />
       <SpeedInsights />
