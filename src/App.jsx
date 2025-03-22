@@ -16,6 +16,7 @@ import ConfirmPayment from "./pages/ConfirmPayment";
 import ForgetPassword from "./pages/ForgetPassword";
 import Calender from "./pages/Calender";
 import { AppContext } from "./context/AppContext";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
 
@@ -24,9 +25,9 @@ function App() {
  
 
   return (
-    <>
       <div className="mx-4 overflow-x-hidden sm:mx-[10%]">
       <ToastContainer />
+      <SpeedInsights />
       <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
